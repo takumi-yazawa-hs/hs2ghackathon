@@ -54,7 +54,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'], #comment:yazawa テンプレートフォルダを追加した場合はここへ
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
